@@ -57,3 +57,27 @@ function roundDecimals(value) {
 function brzycki(weight, reps) {
 	return weight/((37/36)-(reps/36));
 }
+
+function epley(weight, reps) {
+	return weight*(1+(reps/30));
+}
+
+function lander(weight, reps) {
+	return 100*weight/(101.3-2.67123*reps);
+}
+
+function lombardi(weight, reps) {
+	return weight*(Math.pow(reps, 0.10));
+}
+
+function mayhew(weight, reps) {
+	return 100*weight/(52.2+(41.9*Math.pow(Math.E, -0.055*reps)));
+}
+
+function oconner(weight, reps) {
+	return weight*(1+0.025*reps);
+}
+
+function wathan(weight, reps) {
+	return 100*weight/(48.8+(53.8*Math.pow(Math.E, -0.075*reps)));
+}
