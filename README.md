@@ -2,8 +2,8 @@ Mobile webapps for weight training.
 ===============
 
 A small collection of mobile webapps for weight training.
-Built with HTML5, jQuery and Bootstrap 3.
-Using Appcache to enable offline usage.
+Built with HTML5, [jQuery](http://jquery.com/) and [Bootstrap](http://getbootstrap.com/).
+Using [application cache](https://developer.mozilla.org/en/docs/HTML/Using_the_application_cache) to enable offline usage.
 
 Russian Squat Routine
 ---------------
