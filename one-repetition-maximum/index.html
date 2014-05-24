@@ -16,6 +16,10 @@
         <label class="sr-only" for="weight">Vikt</label>
         <label class="sr-only" for="reps">Antal</label>
         <div class="form-group">
+          <input type="checkbox" id="closest2point5" />
+          <label for="closest2point5">Avrunda till närmaste 2.5 kg</label>
+        </div>
+        <div class="form-group">
           <input type="number" min="0" step="0.5" pattern="[\d]*\.?[\d]*" class="form-control" id="weight" placeholder="Vikt" />
         </div>
         <div class="form-group">
@@ -43,128 +47,26 @@
       <br/>
 
       <table class="table table-bordered">
-        <thead>
-          <tr class="active">
-            <th>
-              Vecka
-            </th>
-            <th>
-              Dag 1
-            </th>
-            <th>
-              Dag 2
-            </th>
-            <th>
-              Dag 3
-            </th>
-          </tr>
-        </thead>
         <tbody>
           <tr>
-            <th class="row-head">
-              1
-            </th>
-            <td>
-              <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
+            <td colspan="2">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-2 result-row">
+                <span class="100percent">&nbsp;</span>
               </div>
-              <div class="col-sm-8 sets-reps">
-                6 x 2 reps
+              <div class="col-sm-6 sets-reps">
+                1RM
               </div>
-            </td>
-            <td>
-              <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
-              </div>
-              <div class="col-sm-8 sets-reps">
-                6 x 3 reps
-              </div>
-            </td>
-            <td>
-              <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
-              </div>
-              <div class="col-sm-8 sets-reps">
-                6 x 2 reps
-              </div>
+              <div class="col-sm-2"></div>
             </td>
           </tr>
           <tr>
-            <th class="row-head">
-              2
-            </th>
             <td>
               <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
+                <span class="95percent">&nbsp;</span>
               </div>
               <div class="col-sm-8 sets-reps">
-                6 x 4 reps
-              </div>
-            </td>
-            <td>
-              <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
-              </div>
-              <div class="col-sm-8 sets-reps">
-                6 x 2 reps
-              </div>
-            </td>
-            <td>
-              <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
-              </div>
-              <div class="col-sm-8 sets-reps">
-                6 x 5 reps
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <th class="row-head">
-              3
-            </th>
-            <td>
-              <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
-              </div>
-              <div class="col-sm-8 sets-reps">
-                6 x 2 reps
-              </div>
-            </td>
-            <td>
-              <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
-              </div>
-              <div class="col-sm-8 sets-reps">
-                6 x 6 reps
-              </div>
-            </td>
-            <td>
-              <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
-              </div>
-              <div class="col-sm-8 sets-reps">
-                6 x 2 reps
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <th class="row-head">
-              4
-            </th>
-            <td>
-              <div class="col-sm-4 result-row">
-                <span class="85percent">&nbsp;</span>
-              </div>
-              <div class="col-sm-8 sets-reps">
-                5 x 5 reps
-              </div>
-            </td>
-            <td>
-              <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
-              </div>
-              <div class="col-sm-8 sets-reps">
-                6 x 2 reps
+                95%
               </div>
             </td>
             <td>
@@ -172,28 +74,17 @@
                 <span class="90percent">&nbsp;</span>
               </div>
               <div class="col-sm-8 sets-reps">
-                4 x 4 reps
+                90%
               </div>
             </td>
           </tr>
           <tr>
-            <th class="row-head">
-              5
-            </th>
             <td>
               <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
+                <span class="85percent">&nbsp;</span>
               </div>
               <div class="col-sm-8 sets-reps">
-                6 x 2 reps
-              </div>
-            </td>
-            <td>
-              <div class="col-sm-4 result-row">
-                <span class="95percent">&nbsp;</span>
-              </div>
-              <div class="col-sm-8 sets-reps">
-                3 x 3 reps
+                85%
               </div>
             </td>
             <td>
@@ -201,36 +92,61 @@
                 <span class="80percent">&nbsp;</span>
               </div>
               <div class="col-sm-8 sets-reps">
-                6 x 2 reps
+                80%
               </div>
             </td>
           </tr>
           <tr>
-            <th class="row-head">
-              6
-            </th>
             <td>
               <div class="col-sm-4 result-row">
-                <span class="100percent">&nbsp;</span>
+                <span class="75percent">&nbsp;</span>
               </div>
               <div class="col-sm-8 sets-reps">
-                2 x 2 reps
+                75%
               </div>
             </td>
             <td>
               <div class="col-sm-4 result-row">
-                <span class="80percent">&nbsp;</span>
+                <span class="70percent">&nbsp;</span>
               </div>
               <div class="col-sm-8 sets-reps">
-                6 x 2 reps
+                70%
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="65percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                65%
               </div>
             </td>
             <td>
               <div class="col-sm-4 result-row">
-                <span class="105percent">&nbsp;</span>
+                <span class="60percent">&nbsp;</span>
               </div>
               <div class="col-sm-8 sets-reps">
-                Nytt 1RM!
+                60%
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="55percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                55%
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="50percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                50%
               </div>
             </td>
           </tr>
