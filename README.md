@@ -9,7 +9,9 @@ Russian Squat Routine
 ---------------
 Live demo: http://marza.se/rsr
 
-
+One-repetition maximum
+---------------
+Live demo: http://marza.se/1rm
 
 Wishlist (todos)
 ---------------
