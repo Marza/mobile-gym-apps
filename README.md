@@ -1,4 +1,4 @@
-Mobile webapps for weight training.
+Mobile webapps for weight training
 ===============
 
 A small collection of mobile webapps for weight training.
