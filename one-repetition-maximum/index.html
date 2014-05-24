@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="sv" manifest="offline.appcache">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>1RM kalkylator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>1RM kalkylator</h1>
+
+      <form class="form" role="form" id="form">
+        <label class="sr-only" for="weight">Vikt</label>
+        <label class="sr-only" for="reps">Antal</label>
+        <div class="form-group">
+          <input type="number" min="0" step="0.5" pattern="[\d]*\.?[\d]*" class="form-control" id="weight" placeholder="Vikt" />
+        </div>
+        <div class="form-group">
+          <select class="form-control" id="reps">
+            <option value="">antal</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <span class="input-group-btn">
+            <button class="btn btn-default btn-primary btn-block" type="submit">Räkna ut</button>
+          </span>
+        </div>
+      </form>
+
+      <br/>
+
+      <table class="table table-bordered">
+        <thead>
+          <tr class="active">
+            <th>
+              Vecka
+            </th>
+            <th>
+              Dag 1
+            </th>
+            <th>
+              Dag 2
+            </th>
+            <th>
+              Dag 3
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="row-head">
+              1
+            </th>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 2 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 3 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 2 reps
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th class="row-head">
+              2
+            </th>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 4 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 2 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 5 reps
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th class="row-head">
+              3
+            </th>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 2 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 6 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 2 reps
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th class="row-head">
+              4
+            </th>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="85percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                5 x 5 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 2 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="90percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                4 x 4 reps
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th class="row-head">
+              5
+            </th>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 2 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="95percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                3 x 3 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 2 reps
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th class="row-head">
+              6
+            </th>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="100percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                2 x 2 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="80percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                6 x 2 reps
+              </div>
+            </td>
+            <td>
+              <div class="col-sm-4 result-row">
+                <span class="105percent">&nbsp;</span>
+              </div>
+              <div class="col-sm-8 sets-reps">
+                Nytt 1RM!
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>

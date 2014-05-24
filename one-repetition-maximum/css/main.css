@@ -1,0 +1,26 @@
+table thead th {
+	font-size: 130%;
+}
+
+.result-row {
+	background-color: #008cba;
+	border: 1px solid #0079a1;
+	color: #fff;
+	padding: 4px 8px;
+	text-align: center;
+}
+
+.sets-reps {
+	padding: 5px 8px;
+}
+
+@media (max-width: 768px) {
+	.sets-reps {
+		text-align: center;
+	}
+}
+
+.row-head {
+	text-align: center;
+	font-size: 130%;
+}
