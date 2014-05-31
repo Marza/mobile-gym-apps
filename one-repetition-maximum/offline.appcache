@@ -1,7 +1,10 @@
 CACHE MANIFEST
-# 2014-05-24 v1.0.0
+# 2014-05-31 v1.0.1
+
 css/bootstrap.min.css
 css/main.css
 javascript/main.js
+img/iphone4.png
+img/iphone5.png
 
 http://code.jquery.com/jquery-2.1.1.min.js
