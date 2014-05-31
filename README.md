@@ -7,11 +7,15 @@ Using [application cache](https://developer.mozilla.org/en/docs/HTML/Using_the_a
 
 Russian Squat Routine
 ---------------
-Live demo: http://marza.se/rsr
+Russian Squat Routine is a training program to increase your 1RM in squats and this app creates that program for you.
+
+Demo: http://marza.se/rsr
 
 One-repetition maximum
 ---------------
-Live demo: http://marza.se/1rm
+1RM calculator, see http://en.wikipedia.org/wiki/One-repetition_maximum for information about 1RM.
+
+Demo: http://marza.se/1rm
 
 Wishlist (todos)
 ---------------
