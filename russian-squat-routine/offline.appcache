@@ -1,7 +1,10 @@
 CACHE MANIFEST
-# 2014-05-24 v1.1.5
+# 2014-05-31 v1.2.0
 css/bootstrap.min.css
 css/main.css
 javascript/main.js
+img/iphone4.png
+img/iphone5.png
+img/apple-touch-icon.png
 
 http://code.jquery.com/jquery-2.1.1.min.js
